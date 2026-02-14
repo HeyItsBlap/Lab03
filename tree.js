@@ -1,6 +1,5 @@
-import * as THREE from "../node_modules/three/build/three.module.js";
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import * as SkeletonUtils from 'three/addons/utils/SkeletonUtils.js';
+﻿import * as THREE from "three";
+import * as SkeletonUtils from "three/addons/utils/SkeletonUtils.js";
 
 export class Tree {
 

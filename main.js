@@ -1,9 +1,7 @@
-
-import * as THREE from "../node_modules/three/build/three.module.js";
-import { OrbitControls } from "../node_modules/three/examples/jsm/controls/OrbitControls.js";
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { AsciiEffect } from 'three/addons/effects/AsciiEffect.js';
-import * as SkeletonUtils from 'three/addons/utils/SkeletonUtils.js';
+﻿import * as THREE from "three";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+import { AsciiEffect } from "three/addons/effects/AsciiEffect.js";
 import { Tree } from "./tree.js";
 
 alert("Use WASD to move, and the left/right arrow keys to pan the camera");
